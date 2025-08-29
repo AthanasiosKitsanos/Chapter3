@@ -223,17 +223,17 @@
         },
 
         {
-            "label": "Exercise_9",
+            "label": "Exercise_9_10",
             "type": "shell",
             "command": "g++",
             "args": [
                 "-g",
                 "-std=c++17",
                 "-mavx",
-                "${workspaceFolder}/Exercises/exercise_9.cpp",
+                "${workspaceFolder}/Exercises/exercise_9_10e.cpp",
                 "-I${workspaceFolder}/Headers",
                 "-o",
-                "${workspaceFolder}/Build/exercise_9.exe"
+                "${workspaceFolder}/Build/exercise_9_10.exe"
             ],
             "group": {
                 "kind": "build",
