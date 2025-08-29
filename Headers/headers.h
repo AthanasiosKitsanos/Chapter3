@@ -1,0 +1,11 @@
+#pragma once
+
+#include <iostream>
+#include <limits>
+#include <vector>
+#include <string>
+#include <iomanip>
+#include <algorithm>
+#include <immintrin.h>
+#include <thread>
+#include <malloc.h>
