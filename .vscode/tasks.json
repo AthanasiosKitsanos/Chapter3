@@ -230,7 +230,7 @@
                 "-g",
                 "-std=c++17",
                 "-mavx",
-                "${workspaceFolder}/Exercises/exercise_9_10e.cpp",
+                "${workspaceFolder}/Exercises/exercise_9_10.cpp",
                 "-I${workspaceFolder}/Headers",
                 "-o",
                 "${workspaceFolder}/Build/exercise_9_10.exe"
