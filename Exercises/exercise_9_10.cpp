@@ -105,3 +105,6 @@ int main()
 
     return 0;
 }
+
+
+//The result is that after the 31st square, the values are going back to zero
