@@ -13,6 +13,9 @@ int main()
     std::cout << "Write rock, paper, or scissors." << std::endl;
     std::cout << "Write exit to close the program." << std::endl;
 
+    int player_score = 0;
+    int pc_score = 0;
+
     for(std::string input; std::getline(std::cin, input);)
     {
         if(input == "exit")
@@ -46,10 +49,12 @@ int main()
             case 0:
                 if(pc_result == 1)
                 {
+                    player_score++;
                     std::cout << "You win" << std::endl;
                 }
                 else if(pc_result == 2)
                 {
+                    pc_score++;
                     std::cout << "You lose" << std::endl;
                 }
                 else
@@ -61,10 +66,12 @@ int main()
             case 1:
                 if(pc_result == 0)
                 {
+                    pc_score++;
                     std::cout << "You lose" << std::endl;
                 }
                 else if(pc_result == 2)
                 {
+                    player_score++;
                     std::cout << "You win" << std::endl;
                 }
                 else
@@ -76,10 +83,12 @@ int main()
             case 2:
                 if(pc_result == 0)
                 {
+                    player_score++;
                     std::cout << "You win" << std::endl;
                 }
                 else if(pc_result == 1)
                 {
+                    pc_score++;
                     std::cout << "You lose" << std::endl;
                 }
                 else
@@ -88,6 +97,8 @@ int main()
                 }
                 break;
         }
+
+        std::cout << "Score: " << "Player - " << player_score << "\tPC - " << pc_score << std::endl;
     }
 
     std::cout << "Press any key to exit...";
