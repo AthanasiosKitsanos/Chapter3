@@ -9,3 +9,4 @@
 #include <immintrin.h>
 #include <thread>
 #include <random>
+#include <cmath>

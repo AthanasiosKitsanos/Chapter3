@@ -179,6 +179,21 @@
             "MIMode": "gdb",
             "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
             "preLaunchTask": "Exercise_11"
+        },
+
+        {
+            "name": "Exercise_12_13",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Build/exercise_12_13.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+            "preLaunchTask": "Exercise_12_13"
         }
     ]
 }
