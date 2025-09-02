@@ -286,16 +286,16 @@
         },
 
         {
-            "label": "Exercise_15",
+            "label": "Exercise_15_16",
             "type": "shell",
             "command": "g++",
             "args": [
                 "-g",
                 "-mavx",
-                "${workspaceFolder}/Exercises/exercise_15.cpp",
+                "${workspaceFolder}/Exercises/exercise_15_16.cpp",
                 "-I${workspaceFolder}/Headers",
                 "-o",
-                "${workspaceFolder}/Build/exercise_15.exe"
+                "${workspaceFolder}/Build/exercise_15_16.exe"
             ],
             "group": {
                 "kind": "build",
