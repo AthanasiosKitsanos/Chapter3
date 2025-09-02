@@ -182,10 +182,10 @@
         },
 
         {
-            "name": "Exercise_12_13",
+            "name": "Exercise_12_13_14",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/Build/exercise_12_13.exe",
+            "program": "${workspaceFolder}/Build/exercise_12_13_14.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -193,7 +193,7 @@
             "externalConsole": true,
             "MIMode": "gdb",
             "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
-            "preLaunchTask": "Exercise_12_13"
+            "preLaunchTask": "Exercise_12_13_14"
         }
     ]
 }

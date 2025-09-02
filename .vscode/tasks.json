@@ -266,15 +266,15 @@
         },
 
         {
-            "label": "Exercise_12_13",
+            "label": "Exercise_12_13_14",
             "type": "shell",
             "command": "g++",
             "args": [
                 "-g",
-                "${workspaceFolder}/Exercises/exercise_12_13.cpp",
+                "${workspaceFolder}/Exercises/exercise_12_13_14.cpp",
                 "-I${workspaceFolder}/Headers",
                 "-o",
-                "${workspaceFolder}/Build/exercise_12_13.exe"
+                "${workspaceFolder}/Build/exercise_12_13_14.exe"
             ],
             "group": {
                 "kind": "build",
