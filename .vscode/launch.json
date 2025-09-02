@@ -197,10 +197,10 @@
         },
 
         {
-            "name": "Exercise_15",
+            "name": "Exercise_15_16",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/Build/exercise_15.exe",
+            "program": "${workspaceFolder}/Build/exercise_15_16.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -208,7 +208,7 @@
             "externalConsole": true,
             "MIMode": "gdb",
             "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
-            "preLaunchTask": "Exercise_15"
+            "preLaunchTask": "Exercise_15_16"
         }
     ]
 }
