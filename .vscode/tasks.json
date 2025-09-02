@@ -304,6 +304,27 @@
             "problemMatcher": [
                 "$gcc"
             ]
+        },
+
+        {
+            "label": "Exercise_17",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-mavx",
+                "${workspaceFolder}/Exercises/exercise_17.cpp",
+                "-I${workspaceFolder}/Headers",
+                "-o",
+                "${workspaceFolder}/Build/exercise_17.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
